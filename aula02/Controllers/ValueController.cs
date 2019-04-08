@@ -16,22 +16,26 @@ namespace Aula02.Controllers
     {
         // GET api/value
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<List<ItemVenda>> Get()
         {
             try
             {
-                // List<Object> resultado = new List<object>();
-                // resultado.Add(new {Nome = "Linha de Código", URL = "www.linhadecodigo.com.br"});
+                List<ItemVenda> resultado = new List<ItemVenda>();
+                resultado.Add(new ItemVenda(1, "teste 1"));
+                resultado.Add(new ItemVenda(2, "teste 2"));
+                resultado.Add(new ItemVenda(3, "teste 3"));
+
+                return resultado;
             }
             catch (System.Exception)
             {
                 
                 throw;
             }
-            return new string[] { "value1", "value2" };
+
+            // return new string[] { "value1", "value2" };
             
             // return Json(new {foo="bar", baz="Blech"});
-
             
             // return Json(resultado);
         }
@@ -94,6 +98,18 @@ namespace Aula02.Controllers
                 
                 throw;
             }
+        }
+    }
+
+    public class ItemVenda
+    {
+        public int Codigo;
+        public string Nome;
+
+        public ItemVenda(int cod, string nome)
+        {
+            this.Codigo = cod;
+            this.Nome = nome;
         }
     }
 }

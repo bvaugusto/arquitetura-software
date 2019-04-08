@@ -12,3 +12,17 @@ C:\Users\478786\Documents\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Au
 C:\Users\478786\Documents\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.RazorTargetAssemblyInfo.cache
 C:\Users\478786\Documents\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.dll
 C:\Users\478786\Documents\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.pdb
+D:\arquitetura-software\aula02\bin\Debug\netcoreapp2.1\Aula02.deps.json
+D:\arquitetura-software\aula02\bin\Debug\netcoreapp2.1\Aula02.runtimeconfig.json
+D:\arquitetura-software\aula02\bin\Debug\netcoreapp2.1\Aula02.runtimeconfig.dev.json
+D:\arquitetura-software\aula02\bin\Debug\netcoreapp2.1\Aula02.dll
+D:\arquitetura-software\aula02\bin\Debug\netcoreapp2.1\Aula02.pdb
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.csprojAssemblyReference.cache
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.csproj.CoreCompileInputs.cache
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.RazorAssemblyInfo.cache
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.RazorAssemblyInfo.cs
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.AssemblyInfoInputs.cache
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.AssemblyInfo.cs
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.RazorTargetAssemblyInfo.cache
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.dll
+D:\arquitetura-software\aula02\obj\Debug\netcoreapp2.1\Aula02.pdb
