@@ -18,13 +18,11 @@ namespace Aula02.Controllers
             {
 
                 List<Book> result = new List<Book>();
-                result.Add(new Book(1, "Teste 1"));
-                result.Add(new Book(2, "Teste 2"));
-                result.Add(new Book(3, "Teste 3"));
-                result.Add(new Book(4, "Teste 4"));
-                result.Add(new Book(5, "Teste 5"));
-                result.Add(new Book(6, "Teste 6"));
-                result.Add(new Book(7, "Teste 7"));
+                result.Add(new Book(1, "Livro 1", "Autor A", 2019, "8595083274"));
+                result.Add(new Book(1, "Livro 2", "Autor B", 2018, "8595083274"));
+                result.Add(new Book(1, "Livro 3", "Autor C", 2017, "8595083274"));
+                result.Add(new Book(1, "Livro 4", "Autor D", 2016, "8595083274"));
+                result.Add(new Book(1, "Livro 5", "Autor E", 2015, "8595083274"));
 
                 return result;
             }
@@ -101,12 +99,22 @@ namespace Aula02.Controllers
     public class Book
     {
         public int id { get; set; }
-        public string nome { get; set; }
+        public string title { get; set; }
+        public string author { get; set; }
+        public int year { get; set; }
+        public string isbn { get; set; }
 
-        public Book(int id, string nome)
+
+
+        public Book(){}
+
+        public Book(int id, string title, string author, int year, string isbn)
         {
             this.id = id;
-            this.nome = nome;
+            this.title = title;
+            this.author = author;
+            this.year = year;
+            this.isbn = isbn;
         }
 
 
