@@ -12,20 +12,20 @@ namespace Aula02.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    public class ValueController : ControllerBase
+    public class SearchController : ControllerBase
     {
-        // GET api/value
+        // GET api/search
         [HttpGet]
-        public ActionResult<List<ItemVenda>> Get()
+        public ActionResult<List<Search>> Get()
         {
             try
             {
-                List<ItemVenda> resultado = new List<ItemVenda>();
-                resultado.Add(new ItemVenda(1, "teste 1"));
-                resultado.Add(new ItemVenda(2, "teste 2"));
-                resultado.Add(new ItemVenda(3, "teste 3"));
+                List<Search> search = new List<Search>();
+                search.Add(new Search(1, "teste 1"));
+                search.Add(new Search(2, "teste 2"));
+                search.Add(new Search(3, "teste 3"));
 
-                return resultado;
+                return search;
             }
             catch (System.Exception)
             {
@@ -40,7 +40,7 @@ namespace Aula02.Controllers
             // return Json(resultado);
         }
 
-        // GET api/value/5
+        // GET api/search/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
@@ -55,7 +55,7 @@ namespace Aula02.Controllers
             }
         }
 
-        // POST api/value
+        // POST api/search
         [HttpPost]
         public void Post([FromBody] string value)
         {
@@ -70,7 +70,7 @@ namespace Aula02.Controllers
             }
         }
 
-        // PUT api/value/5
+        // PUT api/search/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
@@ -85,7 +85,7 @@ namespace Aula02.Controllers
             }
         }
 
-        // DELETE api/value/5
+        // DELETE api/search/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
@@ -101,12 +101,14 @@ namespace Aula02.Controllers
         }
     }
 
-    public class ItemVenda
+    public class Search
     {
         public int Codigo;
         public string Nome;
 
-        public ItemVenda(int cod, string nome)
+        public Search(){}
+
+        public Search(int cod, string nome)
         {
             this.Codigo = cod;
             this.Nome = nome;

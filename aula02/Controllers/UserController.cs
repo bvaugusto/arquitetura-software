@@ -13,11 +13,15 @@ namespace Aula02.Controllers
     {
         // GET api/user
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<List<User>> Get()
         {
             try
             {
-                return new string[] { "value1", "value2" };
+                List<User> user = new List<User>();
+                user.Add(new User(1, "Bruno Augusto", "bvaugusto@gmail.com", 00000000000));
+                user.Add(new User(2, "Augusto Bruno", "augusto@gmail.com", 00000000000));
+
+                return user;
             }
             catch (System.Exception)
             {
@@ -86,6 +90,24 @@ namespace Aula02.Controllers
                 
                 throw;
             }
+        }
+    }
+
+    public class User
+    {
+        public int id { get; set; }
+        public string fullname { get; set; }
+        public string email { get; set; }
+        public int cpf { get; set; }
+
+        public User(){}
+
+        public User(int id, string fullname, string email, int cpf)
+        {
+            this.id = id;
+            this.fullname = fullname;
+            this.email = email;
+            this.cpf = cpf;
         }
     }
 }

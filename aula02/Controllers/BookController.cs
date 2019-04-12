@@ -17,14 +17,14 @@ namespace Aula02.Controllers
             try
             {
 
-                List<Book> result = new List<Book>();
-                result.Add(new Book(1, "Livro 1", "Autor A", 2019, "8595083274"));
-                result.Add(new Book(1, "Livro 2", "Autor B", 2018, "8595083274"));
-                result.Add(new Book(1, "Livro 3", "Autor C", 2017, "8595083274"));
-                result.Add(new Book(1, "Livro 4", "Autor D", 2016, "8595083274"));
-                result.Add(new Book(1, "Livro 5", "Autor E", 2015, "8595083274"));
+                List<Book> book = new List<Book>();
+                book.Add(new Book(1, "Livro 1", "Autor A", 2019, "8595083274", 50.00m));
+                book.Add(new Book(1, "Livro 2", "Autor B", 2018, "8595083274", 60.00m));
+                book.Add(new Book(1, "Livro 3", "Autor C", 2017, "8595083274", 70.00m));
+                book.Add(new Book(1, "Livro 4", "Autor D", 2016, "8595083274", 80.00m));
+                book.Add(new Book(1, "Livro 5", "Autor E", 2015, "8595083274", 90.00m));
 
-                return result;
+                return book;
             }
             catch (System.Exception)
             {
@@ -103,18 +103,20 @@ namespace Aula02.Controllers
         public string author { get; set; }
         public int year { get; set; }
         public string isbn { get; set; }
+        public decimal price { get; set; }
 
 
 
         public Book(){}
 
-        public Book(int id, string title, string author, int year, string isbn)
+        public Book(int id, string title, string author, int year, string isbn, decimal price)
         {
             this.id = id;
             this.title = title;
             this.author = author;
             this.year = year;
             this.isbn = isbn;
+            this.price = price;
         }
 
 
