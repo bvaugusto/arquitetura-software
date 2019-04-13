@@ -94,4 +94,66 @@
 
 * DELETE /api/User/{id}
 
+## Models
+
+```
+Book{
+id	integer($int32)
+title	string
+author	string
+year	integer($int32)
+isbn	string
+price	number($double)
+}
+```
+
+```
+Car{
+id	integer($int32)
+idBook	integer($int32)
+idSession	integer($int32)
+}
+```
+
+```
+Order{}
+```
+
+```
+Request{
+idCodRequest	integer($int64)
+idStatusRequest	integer($int32)
+codProduct	integer($int32)
+priceProduct	number($double)
+dateRequest	integer($int32)
+}
+```
+
+```
+Review{
+idReview	integer($int32)
+idBook	integer($int32)
+idUser	integer($int32)
+title	string
+description	string
+rating	integer($int32)
+year	string($date-time)
+}
+```
+
+```
+Search{
+codigo	integer($int32)
+nome	string
+}
+```
+
+```
+User{
+id	integer($int32)
+fullname	string
+email	string
+cpf	integer($int32)
+}
+```
 
