@@ -2,20 +2,22 @@
 
 ## Estudo Dirigido
 
-* O seu objetivo é implementar uma API para a gestão de uma livraria virtual. Uma livraria vir-tual deve ter pelo menos funcionalidades para:
+>O seu objetivo é implementar uma API para a gestão de uma livraria virtual. 
+>
+>Uma livraria vir-tual deve ter pelo menos funcionalidades para:
 
 
-•	Postar comentários para livros. (resenhadas)
+* Postar comentários para livros. (resenhadas)
 
-•	Pesquisa de livros por critérios diversos.
+* Pesquisa de livros por critérios diversos.
 
-•	Manipular um carrinho de compras
+* Manipular um carrinho de compras
 
-•	Realizar pedidos
+* Realizar pedidos
 
-•	Acompanhamento o status das entregas realizadas.
+* Acompanhamento o status das entregas realizadas.
 
-•	Cadastrar livros 
+* Cadastrar livros 
 
 ## Swagger
 * https://localhost:5001/swagger/index.html
