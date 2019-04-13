@@ -21,77 +21,7 @@ namespace Aula02.Controllers
             try
             {
                 List<Search> search = new List<Search>();
-                search.Add(new Search(1, "teste 1"));
-                search.Add(new Search(2, "teste 2"));
-                search.Add(new Search(3, "teste 3"));
-
                 return search;
-            }
-            catch (System.Exception)
-            {
-                
-                throw;
-            }
-
-            // return new string[] { "value1", "value2" };
-            
-            // return Json(new {foo="bar", baz="Blech"});
-            
-            // return Json(resultado);
-        }
-
-        // GET api/search/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            try
-            {
-                return "value";
-            }
-            catch (System.Exception)
-            {
-                
-                throw;
-            }
-        }
-
-        // POST api/search
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-            try
-            {
-                return;
-            }
-            catch (System.Exception)
-            {
-                
-                throw;
-            }
-        }
-
-        // PUT api/search/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-            try
-            {
-                return;
-            }
-            catch (System.Exception)
-            {
-                
-                throw;
-            }
-        }
-
-        // DELETE api/search/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            try
-            {
-                return;
             }
             catch (System.Exception)
             {
