@@ -2,200 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84426d90-62fa-4ee4-b058-b91dc15e579b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/arquitetura-software.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Aula02.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Aula02.csproj.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Aula02.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/BookController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/CarController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/DeliveryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/OrderController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/Review.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/SearchController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Models/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/bin/Debug/netcoreapp2.1/Aula02.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/bin/Debug/netcoreapp2.1/Aula02.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/bin/Debug/netcoreapp2.1/Aula02.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/bin/Debug/netcoreapp2.1/Aula02.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/bin/Debug/netcoreapp2.1/Aula02.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Aula02.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Aula02.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Aula02.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.RazorTargetAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/Aula02.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Debug/netcoreapp2.1/project.razor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/Release/netcoreapp2.1/Aula02.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/cookies/someuser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/company-registration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Helpers/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/AddressController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/CompanyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Controllers/SegmentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/AddressRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/CompanyRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/Contracts/AddressRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/Contracts/CompanyRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/Contracts/SegmentRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Repositories/SegmentRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/Segment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/l5-swagger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2019_04_14_015910_create_company_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2019_04_14_051835_create_addresses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2019_04_14_130828_create_segments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2019_04_14_133334_add_foreing_to_company_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/migrations/2019_04_14_134105_add_foreing_to_addresses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/database/seeds/SegmentSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/lang/pt-BR/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/views/vendor/l5-swagger/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/views/vendor/l5-swagger/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-php/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Aula02.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/Aula02.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/Aula02.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/Aula02.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/Aula02.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/Debug/netcoreapp2.1/project.razor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/app_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/controller/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/cookies/someuser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/db_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arquitetura-microsservicos/api-node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,14 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/.gitignore">
+        <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-node/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -229,7 +46,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -239,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -249,6 +66,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -258,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="7" />
     <option name="y" value="25" />
     <option name="width" value="1913" />
@@ -272,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,7 +107,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +114,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,6 +128,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="84426d90-62fa-4ee4-b058-b91dc15e579b" name="Default Changelist" comment="" />
@@ -317,24 +139,27 @@
       <option name="presentableId" value="Default" />
       <updated>1555656624300</updated>
       <workItem from="1555656627952" duration="246000" />
+      <workItem from="1555690766048" duration="335000" />
     </task>
+    <task id="LOCAL-00001" summary="resolve conflict .gitignore">
+      <created>1555690963696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555690963697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246000" />
+    <option name="totallyTimeSpent" value="581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="25" width="1913" height="1054" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="23" width="1913" height="1057" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2522715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -342,27 +167,33 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs" />
+    </ignored-roots>
+    <MESSAGE value="resolve conflict .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve conflict .gitignore" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-nodejs/.gitignore">
+    <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-node/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/.gitignore">
@@ -372,11 +203,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arquitetura-microsservicos/api-dotnet/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
