@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:ui="http://java.sun.com/jsf/facelets"
+   xmlns:f="http://java.sun.com/jsf/core"
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+   template="/WEB-INF/templates/default.xhtml">
+   <ui:define name="content">
+      <h:form id="formCliente">
+         <h2>CLIENTE</h2>
+         <!-- Neste ponto, devemos recuperar a lista de clientes disponível no ManagedBean e devemos criar uma variável
+         que irá representar um elemento na lista de elementos retornada -->
+         <h:dataTable var="" value="" border="1">
+	         <h:column>
+	            <f:facet name="header">Id</f:facet>
+	            <!-- Neste ponto deverá ser exibido o valor que se deseja nesta coluna usando JSF. O mesmo deve ser feito
+	            para as outras colunas -->
+	         </h:column>
+	         <h:column>
+	            <f:facet name="header">Nome do Cliente</f:facet>
+	         </h:column>
+	         <h:column>
+	            <f:facet name="header">CPF do Cliente</f:facet>
+	         </h:column>
+	         <h:column>
+	            <f:facet name="header">Email do Cliente</f:facet>
+	         </h:column>
+	         <h:column>
+	            <f:facet name="header">Nascimento do Cliente</f:facet>
+				<!-- Esta coluna tem um comportaento particular, pois deve exibir a data formatada com padrão dd/MM/yyyy -->
+	         </h:column>
+	      </h:dataTable>
+	      <p>
+            <!-- Neste ponto, deve-se incluir o botão de voltar conforme o desafio 2 apresentado no laboratório. -->
+         </p>
+      </h:form>
+   </ui:define>
+</ui:composition>
