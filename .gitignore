@@ -11,6 +11,7 @@ npm-debug.log
 yarn-error.log
 .vscode
 .ideacd
+.idea
 .vs
 .vscode
 .DS_Store
