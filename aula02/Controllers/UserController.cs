@@ -17,11 +17,8 @@ namespace Aula02.Controllers
         {
             try
             {
-                List<User> user = new List<User>();
-                user.Add(new User(1, "Bruno Augusto", "bvaugusto@gmail.com", 00000000000));
-                user.Add(new User(2, "Augusto Bruno", "augusto@gmail.com", 00000000000));
-
-                return user;
+                var user = new User();
+                return user.createObject(null);
             }
             catch (System.Exception)
             {
@@ -108,6 +105,14 @@ namespace Aula02.Controllers
             this.fullname = fullname;
             this.email = email;
             this.cpf = cpf;
+        }
+
+        public List<User> createObject(int? id)
+        {
+            var users = new List<User>();
+            users.Add(new User(1, "Bruno Augusto", "bvaugusto@gmail.com", 00000000000));
+            users.Add(new User(2, "Augusto Bruno", "augusto@gmail.com", 00000000000));    
+            return users;
         }
     }
 }

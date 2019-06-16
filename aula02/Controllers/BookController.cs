@@ -16,31 +16,23 @@ namespace Aula02.Controllers
         {
             try
             {
-
-                List<Book> book = new List<Book>();
-                book.Add(new Book(1, "Livro 1", "Autor A", 2019, "8595083274", 50.00m));
-                book.Add(new Book(1, "Livro 2", "Autor B", 2018, "8595083274", 60.00m));
-                book.Add(new Book(1, "Livro 3", "Autor C", 2017, "8595083274", 70.00m));
-                book.Add(new Book(1, "Livro 4", "Autor D", 2016, "8595083274", 80.00m));
-                book.Add(new Book(1, "Livro 5", "Autor E", 2015, "8595083274", 90.00m));
-
-                return book;
-            }
+                var books = new Book();
+                return books.createObject(null);
+                }
             catch (System.Exception)
             {
                 throw;
             }
-
         }
-
-
+        
         // GET api/book/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<List<Book>> Get(int id)
         {
             try
             {
-                return "value";
+                var books = new Book();
+                return books.createObject(id);
             }
             catch (System.Exception)
             {
@@ -117,6 +109,17 @@ namespace Aula02.Controllers
             this.year = year;
             this.isbn = isbn;
             this.price = price;
+        }
+
+        public List<Book> createObject(int? id)
+        {
+            var book = new List<Book>();
+            book.Add(new Book(1, "Livro 1", "Autor A", 2019, "8595083274", 50.00m));
+            book.Add(new Book(1, "Livro 2", "Autor B", 2018, "8595083274", 60.00m));
+            book.Add(new Book(1, "Livro 3", "Autor C", 2017, "8595083274", 70.00m));
+            book.Add(new Book(1, "Livro 4", "Autor D", 2016, "8595083274", 80.00m));
+            book.Add(new Book(1, "Livro 5", "Autor E", 2015, "8595083274", 90.00m));
+            return book;
         }
 
 
