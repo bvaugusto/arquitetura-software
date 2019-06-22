@@ -21,10 +21,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/artist', artistRouter);
-app.use('/playlist', playlistRouter);
-app.use('/music', trackPlaylistRouter);
+app.use('/v1/', indexRouter);
+app.use('/v1/artist', artistRouter);
+app.use('/v1/playlist', playlistRouter);
+app.use('/v1/music', trackPlaylistRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

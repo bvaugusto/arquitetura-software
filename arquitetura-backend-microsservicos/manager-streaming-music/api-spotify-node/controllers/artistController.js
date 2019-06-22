@@ -1,24 +1,18 @@
 var SpotifyWebApi = require('spotify-web-api-node');
 
-var spotifyApi = new SpotifyWebApi({
-    clientId: '497c3fb573df48b6bec41dc9e774722d',
-    clientSecret: '8c0b67e19b3c45beacf8c27491cc552d'
-});
+var spotifyApi = new SpotifyWebApi();
 
-spotifyApi.clientCredentialsGrant().then(
-    function(data) {
-        // Save the access token so that it's used in future calls
-        spotifyApi.setAccessToken(data.body['access_token']);
-    },
-    function(err) {
-        console.log('Something went wrong when retrieving an access token', err);
-    }
-);
+var token = 'BQCfvk8rz5nRoqyC6XJvD7mmBE9xVHDubR3TXk5LsBnazymI8FZdd8GSppE2Ji5tM1Za4KM3KfhFndOE1auQJmdO6QI0i4_RFJEQ9jH1ltAL40wCvc0X4Mwc1dGujb4FDfQtamFpzjnRXC_cK7IkkriRUvvHRYgYPZkOD6jY-4P9Naqd-JEeEGCuOlkQ1VdVBkxeFFpOelGEdLCETDBSI65OlhI-hoeKtRoYU8sdLh-2a9j0TyMdWUnfBOtSsOY-BfCuyeyA7EzehSBo';
 
-exports.list = (req, res, next) => {
+spotifyApi.setAccessToken(token)
 
-    // Search artists whose name contains 'Love'
-    spotifyApi.searchArtists('Queen')
+exports.search = (req, res, next) => {
+
+    let token = req.headers.access_token
+    let query = req.query.query
+
+    spotifyApi.setAccessToken(token)
+    spotifyApi.searchArtists(query)
         .then(function(data) {
             res.status(200).send(data.body);
         }, function(err) {
@@ -27,12 +21,62 @@ exports.list = (req, res, next) => {
 
 };
 
-exports.get = (req, res, next) => {
-    // Get an artist
-    spotifyApi.getArtist(req.params.id)
+exports.getArtist = (req, res, next) => {
+
+    let token = req.headers.access_token
+    let id = req.params.id
+
+    spotifyApi.setAccessToken(token)
+    spotifyApi.getArtist(id)
         .then(function(data) {
             res.status(200).send(data.body);
         }, function(err) {
-            console.error(err);
+            res.send(err);
         });
+
+};
+
+exports.getArtistAlbums = (req, res, next) => {
+
+    let token = req.headers.access_token
+    let id = req.params.id
+
+    spotifyApi.setAccessToken(token)
+    spotifyApi.getArtistAlbums(id)
+        .then(function(data) {
+            res.status(200).send(data.body);
+        }, function(err) {
+            res.send(err);
+        });
+
+};
+
+exports.getArtistTopTracks = (req, res, next) => {
+
+    let token = req.headers.access_token
+    let id = req.params.id
+
+    spotifyApi.setAccessToken(token)
+    spotifyApi.getArtistTopTracks(id)
+        .then(function(data) {
+            res.status(200).send(data.body);
+        }, function(err) {
+            res.send(err);
+        });
+
+};
+
+exports.getArtistRelatedArtists = (req, res, next) => {
+
+    let token = req.headers.access_token
+    let id = req.params.id
+
+    spotifyApi.setAccessToken(token)
+    spotifyApi.getArtistRelatedArtists(id)
+        .then(function(data) {
+            res.status(200).send(data.body);
+        }, function(err) {
+            res.send(err);
+        });
+
 };
