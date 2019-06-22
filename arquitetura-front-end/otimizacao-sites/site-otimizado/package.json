@@ -1,0 +1,20 @@
+{
+  "name": "site-otimizado",
+  "version": "1.0.0",
+  "description": "130 requests | 4.9MB transferred | 4.9MB resources | Finish: 6.93s | DOMContentLoaded: 4.95s | Load: 5.86s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
