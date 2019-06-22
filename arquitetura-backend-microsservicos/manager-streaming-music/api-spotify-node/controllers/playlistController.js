@@ -1,26 +1,16 @@
-// var db = require('../db');
-
 var SpotifyWebApi = require('spotify-web-api-node');
 
-var options = {"scope":"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private"};
+var spotifyApi = new SpotifyWebApi();
 
-var spotifyApi = new SpotifyWebApi({
-    clientId: '6b5a6d953f4c45c59674d3f33d240516',
-    clientSecret: '4da901acb279464290a110a85bd00454'
-});
+var token = 'BQCfvk8rz5nRoqyC6XJvD7mmBE9xVHDubR3TXk5LsBnazymI8FZdd8GSppE2Ji5tM1Za4KM3KfhFndOE1auQJmdO6QI0i4_RFJEQ9jH1ltAL40wCvc0X4Mwc1dGujb4FDfQtamFpzjnRXC_cK7IkkriRUvvHRYgYPZkOD6jY-4P9Naqd-JEeEGCuOlkQ1VdVBkxeFFpOelGEdLCETDBSI65OlhI-hoeKtRoYU8sdLh-2a9j0TyMdWUnfBOtSsOY-BfCuyeyA7EzehSBo';
 
-spotifyApi.clientCredentialsGrant(options).then(
-    function(data) {
-        console.log(data)
-        // Save the access token so that it's used in future calls
-        spotifyApi.setAccessToken(data.body['access_token']);
-    },
-    function(err) {
-        console.log('Something went wrong when retrieving an access token', err);
-    }
-);
+spotifyApi.setAccessToken(token)
 
 exports.list = (req, res, next) => {
+
+    let token = req.headers.access_token;
+    spotifyApi.setAccessToken(token)
+
     // Get a user's playlists
     spotifyApi.getUserPlaylists('bvaugusto')
         .then(function(data) {
@@ -31,6 +21,9 @@ exports.list = (req, res, next) => {
 };
 
 exports.getPlaylistTracks = (req, res, next) => {
+
+    let token = req.headers.access_token;
+    spotifyApi.setAccessToken(token)
 
     let playlistId = '7o9g41z6KY76Q7wPSvDA49';
     let options = '';
@@ -51,20 +44,14 @@ exports.getPlaylistTracks = (req, res, next) => {
 
 exports.create = (req, res, next) => {
 
-    // { display_name: 'bvaugusto',
-    //     external_urls: { spotify: 'https://open.spotify.com/user/bvaugusto' },
-    //     followers: { href: null, total: 0 },
-    //     href: 'https://api.spotify.com/v1/users/bvaugusto',
-    //         id: 'bvaugusto',
-    //     images: [],
-    //     type: 'user',
-    //     uri: 'spotify:user:bvaugusto'
-    // }
+    let token = req.headers.access_token;
+    let playlist = req.body.playlist;
+    let userId = 'bvaugusto'; //req.body.userId;
+    let options = { 'public' : true }; // req.body.options
 
-    // BSZCGZjZRZWqPdG2rGzPkw
-    //1e38MiHqozG6ofMnle5vYl
-    // Create a private playlist
-    spotifyApi.createPlaylist('bvaugusto', 'MyPlaylist', { 'public' : true })
+    spotifyApi.setAccessToken(token)
+
+    spotifyApi.createPlaylist(userId, playlist, options)
         .then(function(data) {
             res.status(200).send(data);
         }, function(err) {
@@ -73,6 +60,9 @@ exports.create = (req, res, next) => {
 };
 
 exports.search = (req, res, next) => {
+
+    let token = req.headers.access_token;
+    spotifyApi.setAccessToken(token)
 
     // Get an artist
     spotifyApi.getArtist(req.params.id)
@@ -85,9 +75,12 @@ exports.search = (req, res, next) => {
 
 exports.addTracksToPlaylist = (req, res, next) => {
 
+    let token = req.headers.access_token;
     let playlistId = '7o9g41z6KY76Q7wPSvDA49';
     let tracks = ["spotify:track:4iV5W9uYEdYUVa79Axb7Rh", "spotify:track:1301WleyT98MSxVHPZCA6M"];
     let options = {position : 5};
+
+    spotifyApi.setAccessToken(token)
 
     // Add tracks to a specific position in a playlist
     spotifyApi.addTracksToPlaylist(playlistId, tracks,options)
@@ -104,9 +97,11 @@ exports.removeTracksFromPlaylist = (req, res, next) => {
     // Remove all occurrence of a track
     let playlistId = '5ieJqeLJjjI8iJWaxeBLuK';
     let tracks = ["spotify:track:4iV5W9uYEdYUVa79Axb7Rh", "spotify:track:1301WleyT98MSxVHPZCA6M"];
-
+    let token = req.headers.access_token;
     // var tracks = [{ uri : "spotify:track:4iV5W9uYEdYUVa79Axb7Rh" }];
-    var options = { snapshot_id : "0wD+DKCUxiSR/WY8lF3fiCTb7Z8X4ifTUtqn8rO82O4Mvi5wsX8BsLj7IbIpLVM9" };
+    let options = { snapshot_id : "0wD+DKCUxiSR/WY8lF3fiCTb7Z8X4ifTUtqn8rO82O4Mvi5wsX8BsLj7IbIpLVM9" };
+
+    spotifyApi.setAccessToken(token)
 
     spotifyApi.removeTracksFromPlaylist(playlistId, tracks, options)
         .then(function(data) {

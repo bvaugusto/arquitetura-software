@@ -1,19 +1,10 @@
 var SpotifyWebApi = require('spotify-web-api-node');
 
-var spotifyApi = new SpotifyWebApi({
-    clientId: '6b5a6d953f4c45c59674d3f33d240516',
-    clientSecret: '4da901acb279464290a110a85bd00454'
-});
+var spotifyApi = new SpotifyWebApi();
 
-spotifyApi.clientCredentialsGrant().then(
-    function(data) {
-        // Save the access token so that it's used in future calls
-        spotifyApi.setAccessToken(data.body['access_token']);
-    },
-    function(err) {
-        console.log('Something went wrong when retrieving an access token', err);
-    }
-);
+var token = 'BQCfvk8rz5nRoqyC6XJvD7mmBE9xVHDubR3TXk5LsBnazymI8FZdd8GSppE2Ji5tM1Za4KM3KfhFndOE1auQJmdO6QI0i4_RFJEQ9jH1ltAL40wCvc0X4Mwc1dGujb4FDfQtamFpzjnRXC_cK7IkkriRUvvHRYgYPZkOD6jY-4P9Naqd-JEeEGCuOlkQ1VdVBkxeFFpOelGEdLCETDBSI65OlhI-hoeKtRoYU8sdLh-2a9j0TyMdWUnfBOtSsOY-BfCuyeyA7EzehSBo';
+
+spotifyApi.setAccessToken(token)
 
 exports.list = (req, res, next) => {
 
