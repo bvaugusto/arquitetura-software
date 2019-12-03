@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'carros-cache-v1';
+const CACHE_NAME = 'projeto-pwa-v1';
 
 const FILES_TO_CACHE = [
     '/icons/128.png',
