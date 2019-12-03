@@ -1,0 +1,21 @@
+[
+    {
+        "marca": "Albanos",
+        "modelo": "German Weizen",
+        "descricao":"Weizen é o nome para “cerveja de trigo” em alemão. Cheiro de banana e de cravo é sua característica principal. Espuma bem cremosa, com aparência mais turva, por não ser filtrada e conter leveduras na garrafa. Por sua alta quantidade de gás, provoca uma sensação de refrescância na boca.",
+        "url":"",
+        "images": [
+          "src/public/img/GermanWeizen/1.jpg"
+        ]
+      },
+      {
+        "marca": "Backer",
+        "nome": "Diabolique",
+        "estilo": "American IPA (com adição de raspas de limão capeta)",
+        "descricao":"A mistura de maltes, lúpulos americanos e raspas de limão capeta só poderia ser explosiva. Com personalidade ácida e cítrica é uma verdadeira bomba tropical! Sua receita é uma releitura à altura da premiada Messenger, produzida pela cervejaria californiana Three Weavers Brewing Company.",
+        "url":"",
+        "images": [
+          "src/public/img/GermanWeizen/1.jpg"
+        ]
+      }        
+  ]
