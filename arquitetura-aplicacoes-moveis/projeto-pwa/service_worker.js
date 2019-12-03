@@ -17,8 +17,7 @@ const FILES_TO_CACHE = [
     '/css/styles.css',
     '/offline.html',
     '/manifest.json',
-    '/img/offline.png',
-    '/img/logo_carro.png'
+    '/img/offline.png'
 ];
 
 //Gravando arquivos arquivos estáticos - Somente para montar Front-end
