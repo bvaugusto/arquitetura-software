@@ -1,11 +1,11 @@
 {
-  "name": "projeto-pwa",
-  "version": "1.0.0",
-  "description": "Projeto Pós-Graduação - Arquitetura de Software Distribuído, disciplina de Arquitetura para Aplicações Móveis",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Bruno Vasconcellos Augusto",
-  "license": "ISC"
+    "name": "projeto-pwa",
+    "version": "1.0.0",
+    "description": "Projeto Pós-Graduação - Arquitetura de Software Distribuído, disciplina de Arquitetura para Aplicações Móveis",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "author": "Bruno Vasconcellos Augusto",
+    "license": "ISC"
 }

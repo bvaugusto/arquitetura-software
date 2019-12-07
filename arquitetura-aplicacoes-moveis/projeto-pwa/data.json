@@ -1,82 +1,82 @@
 [
-  {
-      "marca": "Albanos",
-      "nome": "Weizen",
-      "descricao":"Weizen é o nome para “cerveja de trigo” em alemão. Cheiro de banana e de cravo é sua característica principal. Espuma bem cremosa, com aparência mais turva, por não ser filtrada e conter leveduras na garrafa. Por sua alta quantidade de gás, provoca uma sensação de refrescância na boca.",
-      "preco": "15.00",
-      "url":"",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/german-weizen/1.jpg"
-      ]
+    {
+        "marca": "Albanos",
+        "nome": "Weizen",
+        "descricao": "Weizen é o nome para “cerveja de trigo” em alemão. Cheiro de banana e de cravo é sua característica principal. Espuma bem cremosa, com aparência mais turva, por não ser filtrada e conter leveduras na garrafa. Por sua alta quantidade de gás, provoca uma sensação de refrescância na boca.",
+        "preco": "15.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/german-weizen/1.jpg"
+        ]
     },
     {
-      "marca": "Backer",
-      "nome": "Diabolique",
-      "descricao": "A mistura de maltes, lúpulos americanos e raspas de limão capeta só poderia ser explosiva. Com personalidade ácida e cítrica é uma verdadeira bomba tropical! Sua receita é uma releitura à altura da premiada Messenger, produzida pela cervejaria californiana Three Weavers Brewing Company.",
-      "preco": "18.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/diabolique/1.png"
-      ]
+        "marca": "Backer",
+        "nome": "Diabolique",
+        "descricao": "A mistura de maltes, lúpulos americanos e raspas de limão capeta só poderia ser explosiva. Com personalidade ácida e cítrica é uma verdadeira bomba tropical! Sua receita é uma releitura à altura da premiada Messenger, produzida pela cervejaria californiana Three Weavers Brewing Company.",
+        "preco": "18.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/diabolique/1.png"
+        ]
     },
     {
-      "marca": "BLONDINE",
-      "nome": "Baviera",
-      "descricao": "Cerveja Artesanal Alemã BLONDINE Oktoberfest Garrafa 600ml.",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/blondine/1.png"
-      ]
+        "marca": "BLONDINE",
+        "nome": "Baviera",
+        "descricao": "Cerveja Artesanal Alemã BLONDINE Oktoberfest Garrafa 600ml.",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/blondine/1.png"
+        ]
     },
     {
-      "marca": "Wäls",
-      "nome": "Bohemia Pilsen",
-      "descricao": "Cerveja Wäls Bohemia Pilsen 600ml",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/wals/1"
-      ]
+        "marca": "Wäls",
+        "nome": "Bohemia Pilsen",
+        "descricao": "Cerveja Wäls Bohemia Pilsen 600ml",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/wals/1.png"
+        ]
     },
     {
-      "marca": "CERVEJARIA CAMPINAS",
-      "nome": "Andarilha",
-      "descricao": "CERVEJA ARTESANAL ENGLISH OATMEAL STOUT",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/andarilha/1.jpg"
-      ]
+        "marca": "CERVEJARIA CAMPINAS",
+        "nome": "Andarilha",
+        "descricao": "CERVEJA ARTESANAL ENGLISH OATMEAL STOUT",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/andarilha/1.jpg"
+        ]
     },
     {
-      "marca": "Brown",
-      "nome": "Brown",
-      "descricao": "Cerveja Artesanal Brown",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/brown/1.jpg"
-      ]
+        "marca": "Brown",
+        "nome": "Brown",
+        "descricao": "Cerveja Artesanal Brown",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/brown/1.jpg"
+        ]
     },
     {
-      "marca": "conexao",
-      "nome": "conexao",
-      "descricao": "Conexão 060 Session IPA — Session IPA",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/conexao/1.jpeg"
-      ]
+        "marca": "conexao",
+        "nome": "conexao",
+        "descricao": "Conexão 060 Session IPA — Session IPA",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/conexao/1.jpeg"
+        ]
     },
     {
-      "marca": "chimay",
-      "nome": "chimay",
-      "descricao": "chimay",
-      "preco": "22.00",
-      "url": "",
-      "images": [
-        "http://127.0.0.1:5500/src/public/img/produtos/chimay/1.png"
-      ]
-    }       
+        "marca": "chimay",
+        "nome": "chimay",
+        "descricao": "chimay",
+        "preco": "22.00",
+        "url": "",
+        "images": [
+            "/src/public/img/produtos/chimay/1.png"
+        ]
+    }
 ]
