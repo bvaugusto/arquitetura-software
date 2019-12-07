@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/public/css/main.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="src/public/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="src/public/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="src/public/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="src/public/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="src/public/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="src/public/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="src/public/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/public/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/public/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="src/public/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/public/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/public/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/public/img/icons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="src/public/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+
+<nav class="header navbar navbar-expand-md navbar-dark bg-dark sidebarNavigation"
+     data-sidebarClass="navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="src/public/img/logo/logo.png" width="80"></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="menu_pricipal nav navbar-nav nav-flex-icons ml-auto">
+
+                <li class="nav-item">
+                    <button type="button" class="btn btn-block btn-secondary">Instalar App</button>
+                </li>
+
+                <li class="nav-item">
+                    <button type="button" class="btn btn-block btn-secondary">Habilitar Notificação</button>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link Normal</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="container content">
+
+    <div class="row" id="results">
+
+        <!--
+        <div class="col-lg-3 col-md-6 col-sm-12 cor">
+            <div class="card">
+                <img src="img/carro1.jpg" class="card-img-top img_card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                </div>
+              </div>
+        </div>-->
+
+    </div>
+</div>
+
+<div class="footer">
+    Copyright 2019 - Todos os direitos reservados.
+</div>
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="src/public/js/jquery-3.3.1.slim.min.js"></script>
+<script src="src/public/js/popper.min.js"></script>
+<script src="src/public/js/bootstrap.min.js"></script>
+<script src="src/public/js/init.js"></script>
+<script>
+
+    let swRegistration = null;
+
+    if ('serviceWorker' in navigator) {
+
+        window.addEventListener("load", () => {
+
+            navigator.serviceWorker.register('service_worker.js').then((reg) => {
+
+                console.log("Service Worker registrado com sucesso.");
+
+                swRegistration = reg;
+
+            })
+
+        });
+
+    }
+
+</script>
+</body>
+</html> 
