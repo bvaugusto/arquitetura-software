@@ -1,16 +1,18 @@
 .img_card{
-    width: 50%;
     margin: auto;
     margin-top: 10px;
-    border-radius: 100px;
-
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
 }
 .menu_pricipal .nav-item{
     margin-bottom: 10px !important;
     margin-right: 10px;
 }
 .content{
-    margin-top: 80px;
+    margin-top: 130px;
     margin-bottom: 50px;
 }
 
@@ -22,6 +24,14 @@
     color: #FFF;
     background: #510000;
     text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card .card-body .card-text {
+    min-height: 72px;
 }
 
 /* MENU MOBILE */
