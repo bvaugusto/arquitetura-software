@@ -1,0 +1,24 @@
+image: nikolaik/python-nodejs
+
+pipelines:
+  branches:
+    staging:
+      - step:
+          deployment: staging
+          caches:
+            - node
+          script:
+            - yarn
+            - ./node_modules/.bin/sls config credentials -v --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
+            - ./node_modules/.bin/sls create_domain -v --stage homolog
+            - ./node_modules/.bin/sls deploy -v --stage homolog
+    master:
+      - step:
+          deployment: production
+          caches:
+            - node
+          script:
+            - yarn
+            - ./node_modules/.bin/sls config credentials -v --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
+            - ./node_modules/.bin/sls create_domain -v --stage prod
+            - ./node_modules/.bin/sls deploy -v --stage prod
