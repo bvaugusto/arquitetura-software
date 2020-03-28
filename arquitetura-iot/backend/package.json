@@ -1,0 +1,39 @@
+{
+    "name": "backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "./node_modules/.bin/env-cmd -f .env ./node_modules/.bin/sls offline",
+        "deploy": "sh -c './node_modules/.bin/env-cmd -f .env ./node_modules/.bin/sls deploy -v --debug --skipCacheInvalidation'",
+        "serverless-remove": "sh -c './node_modules/.bin/env-cmd -f .env ./node_modules/.bin/sls remove'",
+        "remove-domain": "./node_modules/.bin/env-cmd -f .env ./node_modules/.bin/sls delete_domain",
+        "create-domain": "sh -c './node_modules/.bin/env-cmd -f .env ./node_modules/.bin/sls create_domain --skipCacheInvalidation'"
+    },
+    "dependencies": {
+        "awilix": "^4.2.5",
+        "awilix-express": "^3.0.0",
+        "aws-sdk": "^2.635.0",
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "firebase": "^7.10.0",
+        "helmet": "^3.21.3",
+        "http-errors": "~1.6.3",
+        "method-override": "^3.0.0",
+        "morgan": "~1.9.1",
+        "objectmodel": "2",
+        "pug": "2.0.0-beta11",
+        "serverless-http": "^2.3.2",
+        "uuid": "^7.0.2"
+    },
+    "devDependencies": {
+        "env-cmd": "^10.1.0",
+        "serverless": "^1.65.0",
+        "serverless-domain-manager": "^3.3.1",
+        "serverless-offline": "^5.12.1",
+        "serverless-plugin-common-excludes": "^3.0.0"
+    }
+}

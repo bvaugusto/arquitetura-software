@@ -1,0 +1,8 @@
+.vscode
+.idea
+node_modules
+.env
+!.env.example
+yarn.lock
+yarn-error.log
+.serverless
