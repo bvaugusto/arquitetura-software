@@ -18,6 +18,6 @@
     "instagram-private-api": "^0.10.1",
     "mongoose": "^4.13.18",
     "request-param": "^1.0.0",
-    "validator": "^5.1.0"
+    "validator": "^13.7.0"
   }
 }
