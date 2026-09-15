@@ -16,7 +16,7 @@
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "instagram-private-api": "^0.10.1",
-    "mongoose": "^4.13.18",
+    "mongoose": "^4.13.21",
     "request-param": "^1.0.0",
     "validator": "^5.1.0"
   }
